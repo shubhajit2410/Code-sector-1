@@ -1,0 +1,192 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    width: 100%;
+    height: 10%;
+    background:black;
+    position: fixed;
+    z-index:1;
+  }
+  ul{
+    list-style-type: none;
+  }
+  ul li{
+    float: left;
+    width: 140px;
+    font-size: 20px; 
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+  }
+  ul li a{
+    text-decoration: none;
+    color:palevioletred;
+  }
+  ul li a:hover{
+    background-color: white;
+    
+  }
+  .sec1{
+    padding-top: 80px;
+    background-color: rgb(189, 235, 225);
+    text-align: center;
+  }
+  #p2{
+    color: rgb(194, 123, 16);
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+  #p1{
+    color: black;
+    margin-bottom: 10px;
+  }
+  #p3{
+    color: palevioletred;
+    font-size: 40px;
+    font-style: italic;
+    
+  }
+
+ 
+  
+  
+  #s{
+  color:black;
+  text-decoration:none;
+  }
+  
+  .heading{
+      color:darkslategrey;
+      text-align:center;
+      font-size:40px;
+      font-style:bold;
+      font-family:'ubuntu',sans-serif;
+  }
+  .container{
+      width:1500px;
+      height:600px;
+      border:5px solid darkred;
+      margin:10px;
+   
+  }
+  .col{
+      background-color:lightblue;
+      height:60px;
+      width:100px;
+      padding:10px ;
+      margin:20px;
+      border:3px dashed indigo;
+      font-size:16px;
+      float:left;
+      text-align:center;
+      }
+
+  .heading{
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(66, 7, 17);
+    margin-top: 30px;
+  }
+  .heading span{
+    color: black;
+  }
+  
+  .best .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin: 80px;
+  }
+  .best .box-container .box{
+    height: 300px;
+    display: flex;
+    flex:1 1 20rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(68, 13, 13);
+    border: .2rem solid rgb(66, 7, 17);
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+  .best .box-container .box .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:-100%; left:0;
+  
+  }
+  .best .box-container .box .content{
+    text-emphasis: center;
+    background-color: lightsalmon;
+    padding: 2rem;
+  }
+  .best .box-container .box .content img{
+    margin: 1.5rem 0;
+  }
+  .best .box-container .box .content h3{
+    font-size: 1rem;
+    color: rgb(65, 25, 25);
+    padding: 1rem 0;
+  }
+  .best .box-container .box:hover .image{
+    top:0;
+  }
+  .best .box-container .box:hover .content{
+    transform: translateY(100%);
+  }
+
+  import url
+('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+.btn{
+	
+padding:6px 16px;
+margin:4px 2px;
+border:3px solid white;
+border-radius:6px;
+}
+.btn-dark{
+
+	color:black;
+	border:3px solid grey;
+	margin:8px;
+}
+	
+.contact{
+	background:url(" https://img.freepik.com/free-photo/contact-us_36325-2135.jpg?size=626&ext=jpg");
+background-size:cover;
+}
+.text-center{
+	text-align:center;
+	padding-top:20px;
+    font-size:40px;
+	font-family:'ubuntu',sans-serif;
+	font-size:40px;
+}
+	
+.form{
+	max-width:500px;
+	margin: 25px auto;
+}
+.form-input{
+	margin:5px;
+	width:100%;
+    padding:4px 2px;
+    font-size: 19px;
+    border: 2px grey solid;
+    border-radius: 6px;
+	
+}
+.text-footer{
+	text-align:center;
+	padding:20px 0;
+	display:flex;
+	font-family:'ubuntu',sans-serif;
+	color:white;
+	background-color:black;
+	justify-content:center;
+}
